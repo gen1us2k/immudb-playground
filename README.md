@@ -1,8 +1,9 @@
 # immudb-playground
-// TODO(user): Add simple overview of use/purpose
+
+A simple demo inspired by immudb blog post to store k8s events immutable. 
 
 ## Description
-// TODO(user): An in-depth paragraph about your project and overview of use
+The operator reads all events in a Kubernetes cluster and stores them in immudb vault.
 
 ## Getting Started
 You’ll need a Kubernetes cluster to run against. You can use [KIND](https://sigs.k8s.io/kind) to get a local cluster for testing, or run against a remote cluster.
